@@ -1,0 +1,19 @@
+---
+title: "Report"
+output: html_document
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Essential Regression
+An essential regression model using 'input$beta_est` method has been built.
+
+Thus, 
+beta_est = `beta()`,
+beta_scaled = `beta_scaled()`,
+CIs = `CIs()`,
+p-vals = `p_vals()`
+
